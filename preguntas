@@ -1,47 +1,6 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "mount_file_id": "18nBKzVcw5dgmiPGazaTnZUm3JbqOcN3J",
-      "authorship_tag": "ABX9TyOLZ+JI8NUHq8/pBXVWzZ4n",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/AlbertoGramberg/Evaluador/blob/main/preguntas\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": 2,
-      "metadata": {
-        "id": "7BmxVju9ks2R"
-      },
-      "outputs": [],
-      "source": [
-        "with open(\"preguntas.txt\", \"r\",encoding=\"utf-8\") as file:\n",
-        "    # Leer el contenido del archivo\n",
-        "    contenido = file.read()\n",
-        "\n",
-        "# Evaluar el contenido del archivo como código de Python\n",
-        "preguntas = eval(contenido)"
-      ]
-    }
-  ]
-}
+with open("preguntas.txt", "r",encoding="utf-8") as file:
+    # Leer el contenido del archivo
+    contenido = file.read()
+
+# Evaluar el contenido del archivo como código de Python
+preguntas = eval(contenido)
