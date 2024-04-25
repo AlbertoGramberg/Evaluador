@@ -1,164 +1,116 @@
+
+[
 {
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "mount_file_id": "1SZnof6Cy0a9gzrXomG-dQ7djZMFtsKZJ",
-      "authorship_tag": "ABX9TyPurLbu+1P6HEVDtFCFmCqG",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/AlbertoGramberg/Evaluador/blob/main/preguntas.txt\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "TJCv6BIgurbP"
-      },
-      "outputs": [],
-      "source": []
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "\n",
-        "[\n",
-        "{\n",
-        "\"texto\": \"¿Cuál de las siguientes opciones no es uno de los conceptos monodisciplinares de familia?\",\n",
-        "\"opciones\": [\"Concepto Biológico\", \"Concepto Psicológico\", \"Concepto Sociológico\", \"Concepto Sistémico\"],\n",
-        "\"respuesta_correcta\": \"D\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"Según el concepto biológico, ¿qué implica la familia?\",\n",
-        "\"opciones\": [\"La vida en común de dos individuos de la especie humana, de sexo distinto, unidos con el fin de reproducir.\", \"La unión de personas que comparten un proyecto vital de existencia en común.\", \"Un conjunto de personas que se encuentran unidos por lazos parentales.\", \"Un grupo de dos o más personas que coexisten como unidad espiritual, cultural y socio-económica.\"],\n",
-        "\"respuesta_correcta\": \"A\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿Cuál de las siguientes es una característica de la familia según el concepto psicológico?\",\n",
-        "\"opciones\": [\"Compartir un proyecto vital de existencia en común.\", \"Estar unidos por lazos parentales.\", \"Reproducirse con el fin de conservar la especie.\", \"Ser un grupo de dos o más personas.\"],\n",
-        "\"respuesta_correcta\": \"A\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"Según el concepto sociológico, ¿cómo se describen los lazos que unen a una familia?\",\n",
-        "\"opciones\": [\"Lazos espirituales y culturales.\", \"Lazos parentales de afinidad y consanguinidad.\", \"Lazos biológicos para la reproducción.\", \"Lazos emocionales y de dependencia.\"],\n",
-        "\"respuesta_correcta\": \"B\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿Cuál de las siguientes afirmaciones es correcta según el texto?\",\n",
-        "\"opciones\": [\"La familia es una institución inmutable y tradicional.\", \"La familia no puede ser estudiada como una institución que cambia.\", \"La definición de familia se mantendrá sin modificaciones.\", \"El concepto de familia se seguirá modificando a medida que la sociedad evoluciona.\"],\n",
-        "\"respuesta_correcta\": \"D\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿Cuál de los siguientes tipos de familia se caracteriza por estar constituida por una pareja con o sin hijos?\",\n",
-        "\"opciones\": [\"Familia Nuclear\", \"Familia Extensa\", \"Familia Monoparental\", \"Familia reconstituida o ensamblada\"],\n",
-        "\"respuesta_correcta\": \"A\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿Qué tipo de familia está formada por tres generaciones, padres, hijos, abuelos y otros integrantes?\",\n",
-        "\"opciones\": [\"Familia Nuclear\", \"Familia Extensa\", \"Familia Monoparental\", \"Familia reconstituida o ensamblada\"],\n",
-        "\"respuesta_correcta\": \"B\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿Cuál de las siguientes opciones describe correctamente a una familia monoparental?\",\n",
-        "\"opciones\": [\"Constituida por madre o padre e hijo/s, generalmente como consecuencia de una crisis.\", \"Grupo familiar en la que dos adultos forman una nueva familia y al menos uno de ellos incorpora a un hijo habido de una relación anterior.\", \"Grupo de personas sin lazos de consanguinidad que conviven en un hogar.\", \"Pareja con o sin hijos.\"],\n",
-        "\"respuesta_correcta\": \"A\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿Cómo se denominan los hogares no conyugales según el texto?\",\n",
-        "\"opciones\": [\"Familias no convencionales\", \"Familias reconstituidas\", \"Familias monoparentales\", \"Familias extensas\"],\n",
-        "\"respuesta_correcta\": \"A\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"Según la Teoría General de Sistemas, ¿qué se entiende por un sistema?\",\n",
-        "\"opciones\": [\"Un conjunto de unidades interrelacionadas entre sí y con el entorno.\", \"Un grupo de personas que comparten un proyecto vital de existencia en común.\", \"Un conjunto de personas unidas por lazos parentales.\", \"Un grupo de personas que coexisten como unidad cultural y socio-económica.\"],\n",
-        "\"respuesta_correcta\": \"A\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿Cuáles son los dos principios básicos de la Teoría de Sistemas que se mencionan en el texto?\",\n",
-        "\"opciones\": [\"Totalidad y Retroalimentación\", \"Homeostasis y Adaptación\", \"Entrada y Salida\", \"Estructura y Función\"],\n",
-        "\"respuesta_correcta\": \"A\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"Según el texto, ¿qué es la retroalimentación en el contexto de la Teoría de Sistemas?\",\n",
-        "\"opciones\": [\"La necesidad del sistema de regular sus respuestas frente a los estímulos del exterior para mantener su equilibrio interno.\", \"El proceso de adaptación del sistema a los cambios en el entorno.\", \"La entrada de información al sistema desde el entorno externo.\", \"La salida de información del sistema hacia el entorno externo.\"],\n",
-        "\"respuesta_correcta\": \"A\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿En cuál de los cuatro tipos de determinantes de la Salud según el modelo de Lalonde se ubicaría a la Familia?\",\n",
-        "\"opciones\": [\"Determinantes biológicos\", \"Estilos de vida\", \"Servicios de salud\", \"Determinantes sociales\"],\n",
-        "\"respuesta_correcta\": \"D\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿Cuál de las siguientes NO es una de las funciones principales de la familia según el texto?\",\n",
-        "\"opciones\": [\"Función biosocial-reproductiva\", \"Función económica\", \"Función espiritual-cultural\", \"Función política\"],\n",
-        "\"respuesta_correcta\": \"D\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿A qué se refiere la función educativa de la familia según el texto?\",\n",
-        "\"opciones\": [\"A la formación y desarrollo psíquico del niño desde el nacimiento y durante toda la vida.\", \"A la transmisión de valores y tradiciones de una generación a otra.\", \"Al aprendizaje de la cultura milenaria de la sociedad.\", \"Todas las anteriores.\"],\n",
-        "\"respuesta_correcta\": \"D\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿En qué etapa del ciclo vital familiar se encuentra una pareja que espera su primer hijo?\",\n",
-        "\"opciones\": [\"Formación o de constitución de la pareja\", \"Extensión\", \"Extensión completa\", \"Contracción\"],\n",
-        "\"respuesta_correcta\": \"A\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿Cuál de las siguientes etapas del ciclo vital familiar se caracteriza por el inicio de la adolescencia de los hijos?\",\n",
-        "\"opciones\": [\"Formación o de constitución de la pareja\", \"Extensión\", \"Extensión completa\", \"Contracción\"],\n",
-        "\"respuesta_correcta\": \"C\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿En qué etapa del ciclo vital familiar se da la partida del último hijo del hogar?\",\n",
-        "\"opciones\": [\"Formación o de constitución de la pareja\", \"Extensión completa\", \"Contracción completa\", \"Disolución\"],\n",
-        "\"respuesta_correcta\": \"C\"\n",
-        "},\n",
-        "\n",
-        "{\n",
-        "\"texto\": \"¿Cuál de las siguientes afirmaciones es FALSA con respecto a la etapa de disolución del ciclo vital familiar?\",\n",
-        "\"opciones\": [\"El ciclo vital familiar concluye.\", \"El sobreviviente se enfrenta a la soledad tras la muerte del cónyuge.\", \"Se pueden acentuar enfermedades preexistentes o desencadenar nuevas.\", \"Es una etapa en la que la pareja disfruta de una nueva libertad y realización personal.\"],\n",
-        "\"respuesta_correcta\": \"D\"\n",
-        "}\n",
-        "]"
-      ],
-      "metadata": {
-        "id": "gW45EUjnvOWW"
-      }
-    }
-  ]
+"texto": "¿Cuál de las siguientes opciones no es uno de los conceptos monodisciplinares de familia?",
+"opciones": ["Concepto Biológico", "Concepto Psicológico", "Concepto Sociológico", "Concepto Sistémico"],
+"respuesta_correcta": "D"
+},
+
+{
+"texto": "Según el concepto biológico, ¿qué implica la familia?",
+"opciones": ["La vida en común de dos individuos de la especie humana, de sexo distinto, unidos con el fin de reproducir.", "La unión de personas que comparten un proyecto vital de existencia en común.", "Un conjunto de personas que se encuentran unidos por lazos parentales.", "Un grupo de dos o más personas que coexisten como unidad espiritual, cultural y socio-económica."],
+"respuesta_correcta": "A"
+},
+
+{
+"texto": "¿Cuál de las siguientes es una característica de la familia según el concepto psicológico?",
+"opciones": ["Compartir un proyecto vital de existencia en común.", "Estar unidos por lazos parentales.", "Reproducirse con el fin de conservar la especie.", "Ser un grupo de dos o más personas."],
+"respuesta_correcta": "A"
+},
+
+{
+"texto": "Según el concepto sociológico, ¿cómo se describen los lazos que unen a una familia?",
+"opciones": ["Lazos espirituales y culturales.", "Lazos parentales de afinidad y consanguinidad.", "Lazos biológicos para la reproducción.", "Lazos emocionales y de dependencia."],
+"respuesta_correcta": "B"
+},
+
+{
+"texto": "¿Cuál de las siguientes afirmaciones es correcta según el texto?",
+"opciones": ["La familia es una institución inmutable y tradicional.", "La familia no puede ser estudiada como una institución que cambia.", "La definición de familia se mantendrá sin modificaciones.", "El concepto de familia se seguirá modificando a medida que la sociedad evoluciona."],
+"respuesta_correcta": "D"
+},
+
+{
+"texto": "¿Cuál de los siguientes tipos de familia se caracteriza por estar constituida por una pareja con o sin hijos?",
+"opciones": ["Familia Nuclear", "Familia Extensa", "Familia Monoparental", "Familia reconstituida o ensamblada"],
+"respuesta_correcta": "A"
+},
+
+{
+"texto": "¿Qué tipo de familia está formada por tres generaciones, padres, hijos, abuelos y otros integrantes?",
+"opciones": ["Familia Nuclear", "Familia Extensa", "Familia Monoparental", "Familia reconstituida o ensamblada"],
+"respuesta_correcta": "B"
+},
+
+{
+"texto": "¿Cuál de las siguientes opciones describe correctamente a una familia monoparental?",
+"opciones": ["Constituida por madre o padre e hijo/s, generalmente como consecuencia de una crisis.", "Grupo familiar en la que dos adultos forman una nueva familia y al menos uno de ellos incorpora a un hijo habido de una relación anterior.", "Grupo de personas sin lazos de consanguinidad que conviven en un hogar.", "Pareja con o sin hijos."],
+"respuesta_correcta": "A"
+},
+
+{
+"texto": "¿Cómo se denominan los hogares no conyugales según el texto?",
+"opciones": ["Familias no convencionales", "Familias reconstituidas", "Familias monoparentales", "Familias extensas"],
+"respuesta_correcta": "A"
+},
+
+{
+"texto": "Según la Teoría General de Sistemas, ¿qué se entiende por un sistema?",
+"opciones": ["Un conjunto de unidades interrelacionadas entre sí y con el entorno.", "Un grupo de personas que comparten un proyecto vital de existencia en común.", "Un conjunto de personas unidas por lazos parentales.", "Un grupo de personas que coexisten como unidad cultural y socio-económica."],
+"respuesta_correcta": "A"
+},
+
+{
+"texto": "¿Cuáles son los dos principios básicos de la Teoría de Sistemas que se mencionan en el texto?",
+"opciones": ["Totalidad y Retroalimentación", "Homeostasis y Adaptación", "Entrada y Salida", "Estructura y Función"],
+"respuesta_correcta": "A"
+},
+
+{
+"texto": "Según el texto, ¿qué es la retroalimentación en el contexto de la Teoría de Sistemas?",
+"opciones": ["La necesidad del sistema de regular sus respuestas frente a los estímulos del exterior para mantener su equilibrio interno.", "El proceso de adaptación del sistema a los cambios en el entorno.", "La entrada de información al sistema desde el entorno externo.", "La salida de información del sistema hacia el entorno externo."],
+"respuesta_correcta": "A"
+},
+
+{
+"texto": "¿En cuál de los cuatro tipos de determinantes de la Salud según el modelo de Lalonde se ubicaría a la Familia?",
+"opciones": ["Determinantes biológicos", "Estilos de vida", "Servicios de salud", "Determinantes sociales"],
+"respuesta_correcta": "D"
+},
+
+{
+"texto": "¿Cuál de las siguientes NO es una de las funciones principales de la familia según el texto?",
+"opciones": ["Función biosocial-reproductiva", "Función económica", "Función espiritual-cultural", "Función política"],
+"respuesta_correcta": "D"
+},
+
+{
+"texto": "¿A qué se refiere la función educativa de la familia según el texto?",
+"opciones": ["A la formación y desarrollo psíquico del niño desde el nacimiento y durante toda la vida.", "A la transmisión de valores y tradiciones de una generación a otra.", "Al aprendizaje de la cultura milenaria de la sociedad.", "Todas las anteriores."],
+"respuesta_correcta": "D"
+},
+
+{
+"texto": "¿En qué etapa del ciclo vital familiar se encuentra una pareja que espera su primer hijo?",
+"opciones": ["Formación o de constitución de la pareja", "Extensión", "Extensión completa", "Contracción"],
+"respuesta_correcta": "A"
+},
+
+{
+"texto": "¿Cuál de las siguientes etapas del ciclo vital familiar se caracteriza por el inicio de la adolescencia de los hijos?",
+"opciones": ["Formación o de constitución de la pareja", "Extensión", "Extensión completa", "Contracción"],
+"respuesta_correcta": "C"
+},
+
+{
+"texto": "¿En qué etapa del ciclo vital familiar se da la partida del último hijo del hogar?",
+"opciones": ["Formación o de constitución de la pareja", "Extensión completa", "Contracción completa", "Disolución"],
+"respuesta_correcta": "C"
+},
+
+{
+"texto": "¿Cuál de las siguientes afirmaciones es FALSA con respecto a la etapa de disolución del ciclo vital familiar?",
+"opciones": ["El ciclo vital familiar concluye.", "El sobreviviente se enfrenta a la soledad tras la muerte del cónyuge.", "Se pueden acentuar enfermedades preexistentes o desencadenar nuevas.", "Es una etapa en la que la pareja disfruta de una nueva libertad y realización personal."],
+"respuesta_correcta": "D"
 }
+]
